@@ -1,0 +1,13 @@
+int LEDpin = 13;
+int delayT = 1000;
+
+void setup() {
+  pinMode(LEDpin, OUTPUT);  // Set LEDpin as output
+}
+
+void loop() {
+  digitalWrite(LEDpin, HIGH);  // Turn LED on
+  delay(delayT);               // Wait for 1 second
+  digitalWrite(LEDpin, LOW);   // Turn LED off
+  delay(delayT);               // Wait for 1 second
+}
